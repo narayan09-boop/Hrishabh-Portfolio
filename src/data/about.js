@@ -1,3 +1,9 @@
+import photoshop from '../assets/tools/photoshop.png';
+import illustrator from '../assets/tools/illustrator.png';
+import figma from '../assets/tools/figma.png';
+import canva from '../assets/tools/canva.png';
+import lightroom from '../assets/tools/lightroom.png';
+
 export const about = {
   headline: "I'm Hrishabh ✌️",
   bio: "a graphic designer who turns caffeine into pixels. I craft posters that stop thumbs, brands that tell stories, and social content that actually gets saved.",
@@ -19,11 +25,11 @@ export const about = {
   ],
 
   tools: [
-    { name: "Photoshop", icon: "🎨" },
-    { name: "Illustrator", icon: "✏️" },
-    { name: "Figma", icon: "🖥️" },
-    { name: "Canva", icon: "🖼️" },
-    { name: "Lightroom", icon: "📸" },
+    { name: "Photoshop", icon: photoshop },
+    { name: "Illustrator", icon: illustrator },
+    { name: "Figma", icon: figma },
+    { name: "Canva", icon: canva },
+    { name: "Lightroom", icon: lightroom },
   ],
 
   funFacts: [

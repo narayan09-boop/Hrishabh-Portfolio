@@ -38,8 +38,8 @@ export default function Footer() {
       </div>
       
       <div className="w-full max-w-5xl px-6 flex flex-col sm:flex-row justify-between items-center text-sm text-text-secondary font-medium relative z-10 mt-8">
-        <p>© {new Date().getFullYear()} Hrisabh. All rights reserved.</p>
-        <p className="mt-2 sm:mt-0">Designed & Built with ❤️ and ☕</p>
+        <p>© {new Date().getFullYear()} Hrishabh. All rights reserved.</p>
+        
       </div>
     </footer>
   );

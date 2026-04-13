@@ -34,7 +34,9 @@ export default function ToolsGrid({ tools }) {
           variants={item}
           className="flex flex-col items-center justify-center p-6 bg-bg-secondary/50 dark:bg-bg-secondary/20 rounded-2xl border border-border-color hover:border-accent hover:shadow-lg hover:shadow-accent/5 transition-all duration-300 group"
         >
-          <span className="text-4xl mb-3 group-hover:scale-110 transition-transform duration-300">{tool.icon}</span>
+          <span className="text-4xl mb-3 group-hover:scale-110 transition-transform duration-300">
+            <img src={tool.icon} alt={tool.name} className="w-10 h-10 object-contain" />
+          </span>
           <span className="text-sm font-medium text-text-secondary group-hover:text-text-primary transition-colors">{tool.name}</span>
         </motion.div>
       ))}
