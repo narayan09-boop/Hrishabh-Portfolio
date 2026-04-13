@@ -40,7 +40,7 @@ export const works = Object.entries(imagesGlob).map(([filePath, module], index) 
     image: module.default,
     images: [module.default],
     tags,
-    year: "2024",
+    year: "2026",
     client: folderName,
     color: colors[index % colors.length],
   };
