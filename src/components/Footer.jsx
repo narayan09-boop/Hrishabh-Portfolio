@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className="w-full relative overflow-hidden bg-bg-primary pt-16 pb-8 flex flex-col items-center">
       <div className="w-full max-w-5xl px-6 flex justify-between items-end z-10 mb-8 border-b border-border-color pb-8">
         <div>
-          <p className="font-display font-bold text-2xl text-text-primary">Hrisabh ✌️</p>
+          <p className="font-display font-bold text-2xl text-text-primary">Hrishabh ✌️</p>
           <p className="text-text-secondary mt-1 max-w-xs">Crafting digital experiences with personality and precision.</p>
         </div>
         
@@ -32,7 +32,7 @@ export default function Footer() {
           transition={{ repeat: Infinity, ease: "linear", duration: 40 }}
         >
           <h1 className="text-[15rem] md:text-[20rem] lg:text-[25rem] font-display font-black leading-none tracking-tighter">
-            HRISABH DESIGN HRISABH DESIGN
+            HRISHABH DESIGN HRISHABH DESIGN
           </h1>
         </motion.div>
       </div>

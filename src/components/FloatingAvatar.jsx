@@ -34,7 +34,7 @@ export default function FloatingAvatar() {
       >
         <img 
           src={profilePic} 
-          alt="Hrisabh - Graphic Designer" 
+          alt="Hrihsabh - Graphic Designer" 
           className="w-full h-full object-cover object-[center_top] rounded-[36px]" 
         />
       </motion.div>

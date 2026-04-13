@@ -82,7 +82,7 @@ export default function Navbar() {
           onClick={(e) => handleLinkClick(e, '#root')}
           className="font-bold font-display text-xl tracking-tight"
         >
-          Hrisabh <span className="inline-block hover:rotate-12 transition-transform">✌️</span>
+          Hrishabh <span className="inline-block hover:rotate-12 transition-transform">✌️</span>
         </a>
 
         {/* Desktop Nav */}

@@ -64,7 +64,7 @@ export default function Hero() {
             
             <a 
               href="/resume.pdf" 
-              download="Hrisabh_Raj_Resume.pdf"
+              download="Hrishabh_Raj_Resume.pdf"
               target="_blank"
               rel="noreferrer"
               className="px-6 py-3 rounded-full font-medium transition-colors bg-transparent text-text-primary border border-border-color hover:bg-bg-secondary flex items-center justify-center gap-2"
